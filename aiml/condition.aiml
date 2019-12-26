@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8">
+   <category>
+      <pattern> КАК ТЫ </pattern>
+      
+      <template>
+         <think><set name = "state"> happy</set></think>
+         <condition name = "state" value = "happy">
+            Я СЧАСТЛИВ
+         </condition>
+         
+         <condition name = "state" value = "sad">
+            ТАКОЕ СЕБЕ
+         </condition>
+      </template>
+      
+   </category>
+</aiml>

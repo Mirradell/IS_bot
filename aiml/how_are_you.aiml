@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0" language="ru_RU">
+
+<category>
+  <pattern>
+    КАК ДЕЛА
+  </pattern>
+  <template>
+    <random>
+      <li>Отлично!</li>
+      <li>Просто великолепно!</li>
+      <li>Бывало и лучше...</li>
+      <li>Хочу шоколадок для улучшения настроения.</li>
+      <li>Как думаешь, какие у меня дела, если скоро сессия?!</li>
+      <li>В лабах как в шелках</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * КАК ДЕЛА
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    КАК * ДЕЛА
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    КАК ДЕЛА *
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * КАК НАСТРОЕНИЕ
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    КАК * НАСТРОЕНИЕ
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    КАК НАСТРОЕНИЕ *
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    КАК НАСТРОЕНИЕ
+  </pattern>
+  <template><srai>КАК ДЕЛА</srai>
+  </template>
+</category>
+
+</aiml>

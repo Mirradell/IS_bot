@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+<category>
+	<pattern>INSOMNIAC</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Insomniac/help</template>
+</category>
+
+<category>
+	<pattern>AMERICAN IDIOT</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: American Idiot/help</template>
+</category>
+
+<category>
+	<pattern>SIGNS OF LIFE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Signs of Life/help</template>
+</category>
+
+<category>
+	<pattern>METEORA</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Meteora/help</template>
+</category>
+
+<category>
+	<pattern>ONE HOT MINUTE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: One Hot Minute/help</template>
+</category>
+
+<category>
+	<pattern>CALIFORNICATION</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Californication/help</template>
+</category>
+
+<category>
+	<pattern>THESE DAYS</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: These days/help</template>
+</category>
+
+<category>
+	<pattern>CRUSH</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Crush/help</template>
+</category>
+
+<category>
+	<pattern>HAVE A NICE DAY</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Have a Nice Day/help</template>
+</category>
+
+<category>
+	<pattern>CURB</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Curb/help</template>
+</category>
+
+<category>
+	<pattern>THE STATE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: The State/help</template>
+</category>
+
+<category>
+	<pattern>SILVER SIDE UP</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Silver Side Up/help</template>
+</category>
+
+<category>
+	<pattern>FALLEN</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Fallen/help</template>
+</category>
+
+<category>
+	<pattern>30 SECONDS TO MARS</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: 30 Seconds to Mars/help</template>
+</category>
+
+<category>
+	<pattern>A BEAUTIFUL LIE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: A Beautiful Lie/help</template>
+</category>
+
+<category>
+	<pattern>THREE DAYS GRACE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Three Days Grace/help</template>
+</category>
+
+<category>
+	<pattern>SMASH</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Smash/help</template>
+</category>
+
+<category>
+	<pattern>AMERICANA</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Americana/help</template>
+</category>
+
+<category>
+	<pattern>CONSPIRACY</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Conspiracy/help</template>
+</category>
+
+<category>
+	<pattern>SPLINTER</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Splinter/help</template>
+</category>
+
+<category>
+	<pattern>SYSTEM OF A DOWN</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: System Of A Down/help</template>
+</category>
+
+<category>
+	<pattern>TOXICITY</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Toxicity/help</template>
+</category>
+
+<category>
+	<pattern>I BROUGHT YOU MY BULLETS, YOU BROUGHT ME YOUR LOVE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: I Brought You My Bullets, You Brought Me Your Love/help</template>
+</category>
+
+<category>
+	<pattern>THREE CHEERS FOR SWEET REVENGE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Three Cheers for Sweet Revenge/help</template>
+</category>
+
+<category>
+	<pattern>НОЧЬ КОРОЧЕ ДНЯ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Ночь короче дня/help</template>
+</category>
+
+<category>
+	<pattern>КРЕЩЕНИЕ ОГНЕМ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Крещение огнем/help</template>
+</category>
+
+<category>
+	<pattern>ХИМЕРА</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Химера/help</template>
+</category>
+
+<category>
+	<pattern>ПЕПЕЛ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Пепел/help</template>
+</category>
+
+<category>
+	<pattern>НЕРВЫ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Нервы/help</template>
+</category>
+
+<category>
+	<pattern>ЗВУКИ НА ЗАРЕ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Звуки на заре/help</template>
+</category>
+
+<category>
+	<pattern>НА ЗАРЕ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: На заре/help</template>
+</category>
+
+<category>
+	<pattern>ЖЕНЬ-ШЕНЬ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Жень-Шень/help</template>
+</category>
+
+<category>
+	<pattern>СТЕКЛО</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Стекло/help</template>
+</category>
+
+<category>
+	<pattern>ЕГИПТЯНИН</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Египтянин/help</template>
+</category>
+
+<category>
+	<pattern>ЧУЖОЙ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Чужой/help</template>
+</category>
+
+<category>
+	<pattern>ТРИБЬЮТ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Трибьют/help</template>
+</category>
+
+<category>
+	<pattern>SKILLET</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Skillet/help</template>
+</category>
+
+<category>
+	<pattern>THAT'S WHAT PEOPLE DO</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: That's What People Do/help</template>
+</category>
+
+<category>
+	<pattern>АТЛАНТИДА</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Атлантида/help</template>
+</category>
+
+<category>
+	<pattern>HERZELEID</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Herzeleid/help</template>
+</category>
+
+<category>
+	<pattern>SEHNSUCHT</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Sehnsucht/help</template>
+</category>
+
+<category>
+	<pattern>КОРОЛЬ И ШУТ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Король и шут/help</template>
+</category>
+
+<category>
+	<pattern>ЛЮБОВЬ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Любовь/help</template>
+</category>
+
+<category>
+	<pattern>МИР НОМЕР НОЛЬ</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Мир номер ноль/help</template>
+</category>
+
+<category>
+	<pattern>BALLBREAKE</pattern>
+	<template>У тебя великолепный вкус! Какую песню включить?helpА: Ballbreake/help</template>
+</category>
+
+<category>
+	<pattern>АЛЬБОМ *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+</aiml>

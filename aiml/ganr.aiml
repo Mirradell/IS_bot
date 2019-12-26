@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+  <pattern>Рок</pattern>
+  <template>Отлично! Можно выбрать из альтернативного, русского, hard- или инди-рока. Выбирай!</template>
+</category>
+
+<category>  
+  <pattern>Альтернативный</pattern>
+  <template>Отлично! Давайте найдем что-то из альтернативного рокаhelpЖ:Альтернативный рок/help</template>
+</category>
+
+<category>  
+  <pattern>HARD</pattern>
+  <template>Отлично! Давайте найдем что-то из hard-рокаhelpЖ:Hard rock/help</template>
+</category>
+
+<category>  
+  <pattern>ИНДИ</pattern>
+  <template>Отлично! Давайте найдем что-то из инди-рокаhelpЖ:Инди-рок/help</template>
+</category>
+
+<category>  
+  <pattern>РУССКИЙ</pattern>
+  <template>Отлично! Давайте найдем что-то из русского рокаhelpЖ:Русский рок/help</template>
+</category>
+
+<category>
+   <pattern>*-рок</pattern>
+   <template><srai><star/></srai><set name = "topic">movies</set></template>
+</category>
+
+<category>
+   <pattern>* рок</pattern> 
+   <template>РООООК
+   <srai><star/></srai><set name = "topic">movies</set></template>
+</category>
+
+<topic name = "movies">
+      <category>
+         <pattern> * </pattern>
+         <template>УРА!!!!!!</template>
+      </category>
+</topic>
+</aiml>

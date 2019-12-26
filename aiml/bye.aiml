@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+<category>
+  <pattern> ПОКА </pattern>
+  <template>
+    <random>
+      <li> Всего хорошего! </li>
+      <li> Пока! Надеюсь скоро увидимся! </li>
+      <li> Не забывай обо мне! Пиши! </li>
+      <li> Надеюсь, тебе понравилось наше общение :) </li>
+      <li> До новых встреч! </li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * ПОКА
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ПОКА *
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * ДО СВИДАНИЯ
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ДО СВИДАНИЯ
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ДО * СВИДАНИЯ
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ДО СВИДАНИЯ *
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * ПРОЩАЙ
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+
+
+<category>
+  <pattern>
+    ПРОЩАЙ *
+  </pattern>
+  <template><srai>ПОКА</srai>
+  </template>
+</category>
+</aiml>

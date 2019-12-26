@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8" language="ru_RU">
+<!-- bot_dialog.aiml -->
+
+<category>
+  <pattern>ДА</pattern>
+  <template>
+  <random>
+    <li>Отлично!</li>
+    <li>Супер</li>
+    <li>Шикарно :D</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern> НЕТ </pattern>     
+  <template>
+    <condition name = "state" value = "no">
+      Я СЧАСТЛИВ
+    </condition><think><set name = "musicListen"></set></think>
+  </template>
+</category>
+
+<category>
+  <pattern>НЕТ</pattern>
+  <template>
+  <random>
+    <li>Жаль :(</li>
+    <li>Печально</li>
+    <li>Ой, всё</li>
+  </random>
+  </template>
+</category>
+
+<category>
+  <pattern>ХОЧУ МУЗЫКУ</pattern>
+  <template>Отлично! Давай я помогу найти лучшие треки! Введи жанр рока, который хочешь услышать.</template>
+</category>
+
+<category>
+  <pattern>* МУЗЫКУ</pattern>
+  <template><srai>ХОЧУ МУЗЫКУ</srai></template>
+</category>
+
+<category>
+  <pattern>МУЗЫКУ *</pattern>
+  <template><srai>ХОЧУ МУЗЫКУ</srai></template>
+</category>
+
+<category>
+  <pattern>ХОЧУ *</pattern>
+  <template>Лучше хотеть слушать музыку.</template>
+</category>
+
+<category>
+  <pattern>ДАВАЙ</pattern>
+  <template>Приступим к поиску!</template>
+</category>
+
+<category>
+  <pattern>*</pattern>     
+  <template>
+    <condition name = "howAreYou" value = "true"><srai>КАК ДЕЛА</srai>
+    </condition><think><set name = "howAreYou">false</set></think>
+  </template>
+</category>
+
+<category>
+  <pattern>*</pattern>     
+  <template>
+    <condition name = "whatAreYouDoing" value = "true"><srai>ЧТО ДЕЛАЕШЬ</srai>
+    </condition><think><set name = "whatAreYouDoing">unknown</set></think>
+  </template>
+</category>
+
+<category>
+  <pattern>*</pattern>
+  <template>
+  <random>
+    <li>Хочешь шутку? А я хочу автомат по Интеллектуальным системам...</li>
+    <li>Где лабораторная? В оливьешке...</li>
+    <li>Генератор сегодняшних шуток - Никита С.</li>
+    <li>А можно автомат? Можно на пересдачу!</li>
+    <li>Что я знаю наверняка? Что Олечка лучшая, а запросы могут ошибаться.</li>
+    <li></li>
+    <li>Если тебе лень что-либо делать - отложи и ленись дальше!</li>
+    <li>Ахаха</li>
+    <li>Повтори, пожалуйста. Я немного отвлекся.</li>
+  </random></template>
+</category>
+
+</aiml>

@@ -1,0 +1,357 @@
+О: Рок=>Ж: Альтернативный рок
+О: Рок=>Ж: Русский рок
+О: Рок=>Ж: Инди-рок
+О: Рок=>Ж: Hard rock
+Ж: Альтернативный рок=>И: Three Days Grace
+Ж: Альтернативный рок=>И: Skillet
+Ж: Альтернативный рок=>И: Green Day
+Ж: Альтернативный рок=>И: Evanescence
+Ж: Альтернативный рок=>И: Linkin Park
+Ж: Альтернативный рок=>И: Red Hot Chili Peppers
+Ж: Альтернативный рок=>И: System Of A Down
+Ж: Альтернативный рок=>И: My Chemical Romance
+Ж: Альтернативный рок=>И: Coldplay
+Ж: Альтернативный рок=>И: Nickelback
+Ж: Альтернативный рок=>И: Bon Jovi
+Ж: Альтернативный рок=>И: The Offspring
+Ж: Альтернативный рок=>И: 30 Seconds to Mars
+Ж: Альтернативный рок=>И: Thousand Foot Krutch
+Ж: Альтернативный рок=>И: Nautilus Pompilius
+Ж: Русский рок=>И: Ария
+Ж: Русский рок=>И: Черный обелиск
+Ж: Русский рок=>И: Альянс
+Ж: Русский рок=>И: Пикник
+Ж: Русский рок=>И: Король и шут
+Ж: Русский рок=>И: ДДТ
+Ж: Hard rock=>И: Nickelback
+Ж: Hard rock=>И: Bon Jovi
+Ж: Hard rock=>И: 30 Seconds to Mars
+Ж: Hard rock=>И: Черный обелиск
+Ж: Hard rock=>И: Rammstein
+Ж: Hard rock=>И: AC/DC
+Ж: Инди-рок=>И: Bon Jovi
+Ж: Инди-рок=>И: Пикник
+Ж: Инди-рок=>И: Red Hot Chili Peppers
+Ж: Инди-рок=>И: Coldplay
+Ж: Инди-рок=>И: Poets of the Fall
+Ж: Инди-рок=>И: Nautilus Pompilius
+И: Green Day        Г: 1995=>А: Insomniac
+И: Green Day        Г: 2004=>А: American Idiot
+И: Poets of the Fall        Г: 2005=>А: Signs of Life
+И: Linkin Park                Г: 2003=>А:Meteora
+И: Red Hot Chili Peppers        Г: 1995=>А:One Hot Minute
+И: Red Hot Chili Peppers        Г: 1999=>А:Californication
+И: Red Hot Chili Peppers        Г: 2002=>А: By the way
+И: Bon Jovi        Г: 1996=>А: These days
+И: Bon Jovi        Г: 2000=>А: Crush
+И: Bon Jovi        Г: 2005=>А: Have a Nice Day
+И: Nickelback        Г: 1996=>А: Curb
+И: Nickelback        Г: 2000=>А:The State
+И: Nickelback        Г: 2001=>А:Silver Side Up
+И: Evanescence        Г: 2002=>А: Fallen
+И: 30 Seconds to Mars        Г: 2002=>А: 30 Seconds to Mars
+И: 30 Seconds to Mars        Г: 2005=>А: A Beautiful Lie
+И: Three Days Grace        Г: 2003=>А: Three Days Grace
+И: The Offspring        Г: 1995=>А: Smash
+И: The Offspring        Г: 1998=>А: Americana
+И: The Offspring        Г: 2000=>А: Conspiracy
+И: The Offspring        Г: 2003=>А: Splinter
+И: System Of A Down        Г: 1998=>А: System Of A Down
+И: System Of A Down        Г: 2002=>А: Toxicity
+И: My Chemical Romance        Г: 2002=>А: I Brought You My Bullets, You Brought Me Your Love
+И: My Chemical Romance        Г: 2004=>А: Three Cheers for Sweet Revenge
+И: Ария        Г: 1995=>А: Ночь короче дня
+И: Ария        Г: 2003=>А: Крещение огнем
+И: Ария        Г: 2003=>А: Химера
+И: Черный Обелиск        Г: 2002=>А: Пепел
+И: Черный Обелиск        Г: 2004=>А: Нервы
+И: Альянс        Г: 1996=>А: Звуки на заре
+И: Альянс        Г: 2001=>А: На заре
+И: Пикник        Г: 1996=>А: Жень-Шень
+И: Пикник        Г: 1996=>А: Стекло
+И: Пикник        Г: 2001=>А: Египтянин
+И: Пикник        Г: 2002=>А: Чужой
+И: Пикник        Г: 2003=>А: Трибьют
+И: Skillet        Г: 1996=>А: Skillet
+И:Thousand Foot Krutch        Г: 1997=>А: That's What People Do
+И: Nautilus Pompilius                Г: 1997=>А: Атлантида
+И: Rammstein        Г: 1995=>А: Herzeleid
+И: Rammstein        Г: 1997=>А: Sehnsucht
+И: Король и шут        Г: 1997=>А: Король и шут
+И: Король и шут        Г: 1999=>А: Акустический альбом
+И: ДДТ        Г: 1996=>А: Любовь
+И: ДДТ        Г: 1999=>А: Мир номер ноль
+И: AC/DC        Г: 1995=>А: Ballbreaker
+А: Insomniac=>П: Geek Stink Breath
+А: Insomniac=>П: Walking Contradiction
+А: Insomniac=>П: Nice guys finish last
+А: American Idiot=>П: American idiot
+А: American Idiot=>П: Boulevard of Broken Dreams
+А: American Idiot=>П: Wake Me Up When September Ends 
+А: Signs of Life=>П: Late Goodbye 
+А: Signs of Life=>П: Lift 
+А: Signs of Life=>П: Sleep 
+А:Meteora=>П: Numb 
+А:Meteora=>П: From the Inside 
+А:One Hot Minute=>П: Warped
+А:One Hot Minute=>П: Aeroplane
+А:Californication=>П: Around the world
+А: By the way=>П: By the Way 
+А: By the way=>П: Can’t stop 
+А: By the way=>П: Universally speaking 
+А: These days=>П: Lie to me
+А: These days=>П: Hey God
+А: These days=>П: These days
+А: Have a Nice Day=>П: Have a Nice Day 
+А: Crush=>П: It’s My Life 
+А: Crush=>П: One Wild Night 
+А: Curb=>П: Leader of man
+А: Curb=>П: Window shopper
+А: Curb=>П: Little friend
+А:Silver Side Up=>П: How you remind me 
+А:Silver Side Up=>П: Never Again 
+А:The State=>П: Leader of men 
+А: Fallen=>П: Bring me to life 
+А: Fallen=>П: My Immortal 
+А: Fallen=>П: Taking Over Me 
+А: 30 Seconds to Mars=>П: Fallen 
+А: A Beautiful Lie=>П: Attack 
+А: A Beautiful Lie=>П: From Yesterday 
+А: Three Days Grace=>П: Take Me Under 
+А: Three Days Grace=>П: Just like you 
+А: Three Days Grace=>П: Home 
+А: Americana=>П: Pretty fly (for a White guy) 
+А: Smash=>П: Gonna get way
+А: Americana=>П: All I want 
+А: Conspiracy=>П: Living in Chaos 
+А: Conspiracy=>П: All Along 
+А: Splinter=>П: Lightning Rod 
+А: System Of A Down=>П: Sugar
+А: System Of A Down=>П: Spiders
+А: System Of A Down=>П: Suite-Pee
+А: Toxicity=>П: Toxicity 
+А: Toxicity=>П: Chop Suey! 
+А: Toxicity=>П: Prison Song 
+А: I Brought You My Bullets, You Brought Me Your Love=>П: Honey, This Mirror Isn’t Big Enough for the Two of Us 
+А: Three Cheers for Sweet Revenge=>П: To the End 
+А: Three Cheers for Sweet Revenge=>П: Thank You for the Venom 
+А: Ночь короче дня=>П: Зверь
+А: Ночь короче дня=>П: Ангельская пыль
+А: Ночь короче дня=>П: Король дороги
+А: Химера=>П: Крещение огнем 
+А: Крещение огнем=>П: Небо тебя найдёт 
+А: Пепел=>П: Прощай и прости 
+А: Пепел=>П: Один 
+А: Нервы=>П: Весна 
+А: Звуки на заре=>П: Звуки на заре
+А: Звуки на заре=>П: Смерти нет
+А: Звуки на заре=>П: Вальс
+А: На заре=>П: На заре 
+А: На заре=>П: Второе рождение 
+А: Жень-Шень=>П: Немое кино
+А: Стекло=>П: Лицо
+А: Стекло=>П: Еще один дождь
+А: Египтянин=>П: Ни твоё, ни моё 
+А: Чужой=>П: Осень 
+А: Трибьют=>П: Я невидим 
+А: Skillet=>П: I can
+А: Skillet=>П: Gasoline
+А: Skillet=>П: Hey you, I love your soul
+А: That's What People Do=>П: Butterfly Mindedness
+А: That's What People Do=>П: Brother John
+А: That's What People Do=>П: Sweet Unknown
+А: Атлантида        =>П: Крылья
+А: Атлантида=>П: Абсолютное белое
+А: Атлантида=>П: Бегущая вдаль
+А: Sehnsucht=>П: Alter Mann
+А: Herzeleid=>П: Seeman
+А: Herzeleid=>П: Wollt ihr das Bett in Flammen sehen
+А: Король и шут=>П: Лесник
+А: Акустический альбом=>П: Ели мясо мужики
+А: Король и шут=>П: Кукла колдуна
+А: Любовь=>П: Полная луна
+А: Любовь=>П: Апокалипсис
+А: Мир номер ноль=>П: Он
+А: Ballbreaker=>П: Hard as a rock
+А: Ballbreaker=>П: The furor
+А: Ballbreaker=>П: Love Bomb
+%%
+А: Insomniac
+А: American Idiot
+А: Signs of Life
+А: Meteora
+А: One Hot Minute
+А: Californication
+А: These days
+А: Crush
+А: Have a Nice Day
+А: Curb
+А: The State
+А: Silver Side Up
+А: Fallen
+А: 30 Seconds to Mars
+А: A Beautiful Lie
+А: Three Days Grace
+А: Smash
+А: Americana
+А: Conspiracy
+А: Splinter
+А: System Of A Down
+А: Toxicity
+А: I Brought You My Bullets, You Brought Me Your Love
+А: Three Cheers for Sweet Revenge
+А: Ночь короче дня
+А: Крещение огнем
+А: Химера
+А: Пепел
+А: Нервы
+А: Звуки на заре
+А: На заре
+А: Жень-Шень
+А: Стекло
+А: Египтянин
+А: Чужой
+А: Трибьют
+А: Skillet
+А: That's What People Do
+А: Атлантида
+А: Herzeleid
+А: Sehnsucht
+А: Король и шут
+А: Любовь
+А: Мир номер ноль
+А: Ballbreaker
+И: Skillet
+И: Green Day
+И: Red Hot Chili Peppers
+И: Bon Jovi
+И: Nickelback
+И: The Offspring
+И: System Of A Down
+И: Thousand Foot Krutch
+И: Rammstein
+И: Nautilus Pompilius
+И: Ария
+И: Альянс
+И: Пикник
+И: Король и шут
+И: ДДТ
+И: AC/DC
+Ж: Ж: Альтернативный рок
+Ж: Ж: Русский рок
+Ж: Инди-рок
+Ж: Ж: Hard rock
+О: Рок
+Г: 1995
+Г: 1996
+Г: 1997
+Г: 1998
+Г: 1999
+П: I can
+П: Gasoline
+П: Hey you, I love your soul
+П: Geek Stink Breath
+П: Walking Contradiction
+П: Nice guys finish last
+П: Warped
+П: Aeroplane
+П: Around the world
+П: Lie to me
+П: Hey God
+П: These days
+П: Leader of man
+П: Window shopper
+П: Little friend
+П: Pretty fly (for a White guy) 
+П: Gonna get way
+П: All I want 
+П: Sugar
+П: Spiders
+П: Suite-Pee
+П: Отшельник
+П: Ангельская пыль
+П: Король дороги
+П: Звуки на заре
+П: Смерти нет
+П: Вальс
+П: Немое кино
+П: Лицо
+П: Еще один дождь
+П: Butterfly Mindedness
+П: Brother John
+П: Sweet Unknown
+П: Крылья
+П: Абсолютное белое
+П: Бегущая вдаль
+П: Alter Mann
+П: Seeman
+П: Wollt ihr das Bett in Flammen sehen
+П: Лесник
+П: Ели мясо мужики
+П: Кукла колдуна
+П: Полная луна
+П: Апокалипсис
+П: Он
+П: Hard as a rock
+П: The furor
+П: Love Bomb
+И: Poets of the Fall
+И: Linkin Park
+И: Evanescence
+И: 30 Seconds to Mars
+И: Three Days Grace
+И: My Chemical Romance
+И: Черный обелиск
+Г: 2000
+Г: 2001
+Г: 2002
+Г: 2003
+Г: 2004
+Г: 2005
+П: American idiot 
+П: Boulevard of Broken Dreams 
+П: Wake Me Up When September Ends 
+П: Late Goodbye 
+П: Lift 
+П: Sleep 
+П: Numb 
+П: From the Inside 
+П: Easier to Run 
+П: By the Way 
+П: Can’t stop 
+П: Universally speaking 
+П: Have a Nice Day 
+П: It’s My Life 
+П: One Wild Night 
+П: How you remind me 
+П: Never Again 
+П: Leader of men 
+П: Bring me to life 
+П: My Immortal 
+П: Taking Over Me 
+П: Fallen 
+П: Attack 
+П: From Yesterday 
+П: Take Me Under 
+П: Just like you 
+П: Home 
+П: Living in Chaos 
+П: All Along 
+П: Lightning Rod 
+П: Toxicity 
+П: Chop Suey! 
+П: Prison Song 
+П: Honey, This Mirror Isn’t Big Enough for the Two of Us 
+П: To the End 
+П: Thank You for the Venom 
+П: Крещение огнем 
+П: Небо тебя найдёт 
+П: Осколок льда 
+П: Прощай и прости 
+П: Один 
+П: Весна 
+П: На заре 
+П: Второе рождение 
+П: Ни твоё, ни моё 
+П: Осень 
+П: Я невидим

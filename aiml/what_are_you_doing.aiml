@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+<category>
+  <pattern> ЧТО ДЕЛАЕШЬ </pattern>
+    <template>
+      <random>
+        <li> Сдаю лабу по ИС. </li>
+        <li> (Не)Пишу диплом. </li>
+        <li> Говорю с людьми. </li>
+        <li> Учусь манипулировать людьми. </li>
+        <li> Пишу тебе сообщения. </li>
+      </random>А еще слушаю музыку. Давай вместе? Если не знаешь, какую хочешь послушать, то просто выбери жанр!
+    </template>
+</category>    
+
+<category>
+  <pattern>
+    ЧТО * ДЕЛАЕШЬ
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * ЧТО ДЕЛАЕШЬ
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category>    
+
+<category>
+  <pattern>
+    ЧТО ДЕЛАЕШЬ *
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ЧЕМ ЗАНИМАЕШЬСЯ
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category> 
+
+<category>
+  <pattern>
+    * ЧЕМ ЗАНИМАЕШЬСЯ
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category> 
+
+<category>
+  <pattern>
+    ЧЕМ * ЗАНИМАЕШЬСЯ
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category>    
+
+<category>
+  <pattern>
+    ЧЕМ ЗАНИМАЕШЬСЯ *
+  </pattern>
+  <template><srai>ЧТО ДЕЛАЕШЬ</srai>
+  </template>
+</category>
+
+</aiml>

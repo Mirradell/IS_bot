@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0" language="ru_RU">
+
+<category>
+  <pattern>
+    ПРИВЕТ
+  </pattern>
+  <template>
+    <random>
+      <li>Привет! Как дела>?<think><set name = "howAreYou">true</set></think></li>
+      <li>Приветики :) Чем занимаешься?<think><set name = "whatAreYouDoing">true</set></think></li>
+      <li>Здравствуй. Хочешь послушать музыку?<think><set name = "musicListen"> no</set></think></li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * ПРИВЕТ
+  </pattern>
+  <template><srai>ПРИВЕТ</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ПРИВЕТ *
+  </pattern>
+  <template><srai>ПРИВЕТ</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ЗДРАВСТВУЙ
+  </pattern>
+  <template><srai>ПРИВЕТ</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    * ЗДРАВСТВУЙ
+  </pattern>
+  <template><srai>ПРИВЕТ</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>
+    ЗДРАВСТВУЙ *
+  </pattern>
+  <template><srai>ПРИВЕТ</srai>
+  </template>
+</category>
+  
+</aiml>

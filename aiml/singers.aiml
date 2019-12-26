@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+<category>
+	<pattern>SKILLET</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Skillet/help</template>
+</category>
+
+<category>
+	<pattern>GREEN DAY</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Green Day/help</template>
+</category>
+
+<category>
+	<pattern>RED HOT CHILI PEPPERS</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Red Hot Chili Peppers/help</template>
+</category>
+
+<category>
+	<pattern>BON JOVI</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Bon Jovi/help</template>
+</category>
+
+<category>
+	<pattern>NICKELBACK</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Nickelback/help</template>
+</category>
+
+<category>
+	<pattern>THE OFFSPRING</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: The Offspring/help</template>
+</category>
+
+<category>
+	<pattern>SYSTEM OF A DOWN</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: System Of A Down/help</template>
+</category>
+
+<category>
+	<pattern>THOUSAND FOOT KRUTCH</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Thousand Foot Krutch/help</template>
+</category>
+
+<category>
+	<pattern>RAMMSTEIN</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Rammstein/help</template>
+</category>
+
+<category>
+	<pattern>NAUTILUS POMPILIUS</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Nautilus Pompilius/help</template>
+</category>
+
+<category>
+	<pattern>АРИЯ</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Ария/help</template>
+</category>
+
+<category>
+	<pattern>АЛЬЯНС</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Альянс/help</template>
+</category>
+
+<category>
+	<pattern>ПИКНИК</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Пикник/help</template>
+</category>
+
+<category>
+	<pattern>КОРОЛЬ И ШУТ</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Король и шут/help</template>
+</category>
+
+<category>
+	<pattern>ДДТ</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: ДДТ/help</template>
+</category>
+
+<category>
+	<pattern>AC/DC</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: AC/DC/help</template>
+</category>
+
+<category>
+	<pattern>POETS OF THE FALL</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Poets of the Fall/help</template>
+</category>
+
+<category>
+	<pattern>LINKIN PARK</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Linkin Park/help</template>
+</category>
+
+<category>
+	<pattern>EVANESCENCE</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Evanescence/help</template>
+</category>
+
+<category>
+	<pattern>30 SECONDS TO MARS</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: 30 Seconds to Mars/help</template>
+</category>
+
+<category>
+	<pattern>THREE DAYS GRACE</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Three Days Grace/help</template>
+</category>
+
+<category>
+	<pattern>MY CHEMICAL ROMANCE</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: My Chemical Romance/help</template>
+</category>
+
+<category>
+	<pattern>ЧЕРНЫЙ ОБЕЛИС</pattern>
+	<template>Прекрасный выбор! Могу предложить следующие альбомы этого исполнителя:helpИ: Черный обелис/help</template>
+</category>
+
+<category>
+	<pattern>ИСПОЛНИТЕЛЬ *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+</aiml>
