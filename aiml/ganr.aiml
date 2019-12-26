@@ -6,6 +6,7 @@
   <template>Отлично! Можно выбрать из альтернативного, русского, hard- или инди-рока. Выбирай!</template>
 </category>
 
+<topic name = "music">
 <category>  
   <pattern>Альтернативный</pattern>
   <template>Отлично! Давайте найдем что-то из альтернативного рокаhelpЖ:Альтернативный рок/help</template>
@@ -25,22 +26,16 @@
   <pattern>РУССКИЙ</pattern>
   <template>Отлично! Давайте найдем что-то из русского рокаhelpЖ:Русский рок/help</template>
 </category>
+</topic>
 
 <category>
    <pattern>*-рок</pattern>
-   <template><srai><star/></srai><set name = "topic">movies</set></template>
+   <template><think><set name = "topic">music</set></think><srai><star/></srai></template>
 </category>
 
 <category>
    <pattern>* рок</pattern> 
-   <template>РООООК
-   <srai><star/></srai><set name = "topic">movies</set></template>
+   <template><think><set name = "topic">music</set></think><srai><star/></srai></template>
 </category>
 
-<topic name = "movies">
-      <category>
-         <pattern> * </pattern>
-         <template>УРА!!!!!!</template>
-      </category>
-</topic>
 </aiml>

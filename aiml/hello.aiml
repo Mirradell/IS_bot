@@ -7,9 +7,9 @@
   </pattern>
   <template>
     <random>
-      <li>Привет! Как дела>?<think><set name = "howAreYou">true</set></think></li>
-      <li>Приветики :) Чем занимаешься?<think><set name = "whatAreYouDoing">true</set></think></li>
-      <li>Здравствуй. Хочешь послушать музыку?<think><set name = "musicListen"> no</set></think></li>
+      <li>Привет! Как дела?<think><set name = "state">hello1</set></think></li>
+      <li>Приветики :) Чем занимаешься?<think><set name="state">hello2</set></think></li>
+      <li>Здравствуй. Хочешь послушать музыку?<think><set name = "topic">hello3</set></think></li>
     </random>
   </template>
 </category>

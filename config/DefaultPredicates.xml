@@ -44,11 +44,10 @@
   <item name="want" value="unknown" />
   <item name="we" value="unknown" />
   
-  <item name="musicListen" value="unknown" />
-  <item name="howAreYou" value="unknown" />
-  <item name="whatAreYouDoing" value="unknown" />
+  <item name="musicListen" />
+  <item name="howAreYou" />
+  <item name="whatAreYouDoing"/>
   <item name="userName" />
-  <item name="state" />
-  <item name="topic" />
+  <item name="state"/>
   
 </root>

@@ -13,12 +13,9 @@
 </category>
 
 <category>
-  <pattern> НЕТ </pattern>     
-  <template>
-    <condition name = "state" value = "no">
-      Я СЧАСТЛИВ
-    </condition><think><set name = "musicListen"></set></think>
-  </template>
+  <pattern> НЕТ </pattern> 
+  <that>Здравствуй. Хочешь послушать музыку?</that>  
+  <template>Я СЧАСТЛИВ</template>
 </category>
 
 <category>
@@ -34,7 +31,8 @@
 
 <category>
   <pattern>ХОЧУ МУЗЫКУ</pattern>
-  <template>Отлично! Давай я помогу найти лучшие треки! Введи жанр рока, который хочешь услышать.</template>
+  <template>Отлично! Давай я помогу найти лучшие треки! Введи жанр рока, который хочешь услышать.
+  <think><set name = "topic">music</set></think></template>
 </category>
 
 <category>
@@ -54,24 +52,50 @@
 
 <category>
   <pattern>ДАВАЙ</pattern>
-  <template>Приступим к поиску!</template>
+  <template>Приступим к поиску!<think><set name = "topic">music</set></think></template>
 </category>
 
+<topic name = "hello1">
+      <category>
+         <pattern> * </pattern>
+         <template><srai>КАК ДЕЛА</srai><think><set name = "topic"></set></think></template>
+      </category>
+</topic>
+
+<topic name = "hello2">
+      <category>
+         <pattern> * </pattern>
+         <template><srai>ЧТО ДЕЛАЕШЬ</srai><think><set name = "topic"></set></think></template>
+      </category>
+</topic>
+
+<topic name = "hello3">
+      <category>
+         <pattern> НЕТ </pattern>
+         <template>Жаль, мы могли бы отлично провести время!<set name = "topic"></set></template>
+      </category>
+      
+      <category>
+         <pattern> ДА </pattern>
+         <template>Отлично! Напиши "давай" или "хочу музыку" и приступим :)<set name = "topic"></set></template>
+      </category>
+      
+      <category>
+        <pattern>ДАВАЙ</pattern>
+        <template>Приступим к поиску!<set name = "topic">music</set></template>
+      </category>
+</topic>
+
 <category>
-  <pattern>*</pattern>     
+  <pattern> * </pattern>
   <template>
-    <condition name = "howAreYou" value = "true"><srai>КАК ДЕЛА</srai>
-    </condition><think><set name = "howAreYou">false</set></think>
+    <condition name = "state" value = "hello1">
+      <srai>КАК ДЕЛА</srai><think><set name = "state"></set></think></condition>
+    <condition name = "state" value = "hello2">
+      <srai>ЧТО ДЕЛАЕШЬ</srai><think><set name = "state"></set></think></condition>
   </template>
 </category>
 
-<category>
-  <pattern>*</pattern>     
-  <template>
-    <condition name = "whatAreYouDoing" value = "true"><srai>ЧТО ДЕЛАЕШЬ</srai>
-    </condition><think><set name = "whatAreYouDoing">unknown</set></think>
-  </template>
-</category>
 
 <category>
   <pattern>*</pattern>
@@ -81,7 +105,7 @@
     <li>Где лабораторная? В оливьешке...</li>
     <li>Генератор сегодняшних шуток - Никита С.</li>
     <li>А можно автомат? Можно на пересдачу!</li>
-    <li>Что я знаю наверняка? Что Олечка лучшая, а запросы могут ошибаться.</li>
+    <li>Что я знаю наверняка? Что Олечка лучшая, а в сообщении можно ошибиться.</li>
     <li></li>
     <li>Если тебе лень что-либо делать - отложи и ленись дальше!</li>
     <li>Ахаха</li>

@@ -4,13 +4,29 @@
 
 <category>
   <pattern> КАК ТЕБЯ ЗОВУТ</pattern>
-  <template>Меня зовут <bot name="name" />. А тебя как зовут?</template>
+  <template>Меня зовут <bot name="name" />. А тебя как зовут?<think><set name="topic">name</set></think></template>
 </category>
+
+<topic name="name">
+<category>
+  <pattern> МЕНЯ ЗОВУТ * </pattern>
+  <!-- <template>Привет, <set name = "username"> <star/>! </set> </template> -->
+  <template>Приятно познакомиться, <star/>!<think><set name = "userName"><star/></set></think>
+  </template>
+</category>
+
+<category>
+  <pattern> * </pattern>
+  <!-- <template>Привет, <set name = "username"> <star/>! </set> </template> -->
+  <template>Приятно познакомиться, <star/>!<set name = "userName"><star/></set>
+  </template>
+</category>
+</topic>
 
 <category>
   <pattern> МЕНЯ ЗОВУТ * </pattern>
   <!-- <template>Привет, <set name = "username"> <star/>! </set> </template> -->
-  <template>Привет, <star/>!<set name = "userName"><star/></set>
+  <template>Приятно познакомиться, <star/>!<set name = "userName"><star/></set>
   </template>
 </category>
 

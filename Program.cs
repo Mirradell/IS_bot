@@ -9,6 +9,8 @@ using Telegram.Bot.Args;
 using Telegram.Bot.Types.Enums;
 using AIMLbot;
 using System.Drawing;
+using System.Net;
+using System.IO;
 
 namespace tgBot
 {
@@ -16,8 +18,10 @@ namespace tgBot
     {//*
         const string apiKey = "";
         const string chatId = "725729553";
-        const string proxyName = "ns377475.ip-91-121-109.eu";
-        static HttpToSocks5Proxy proxy = new HttpToSocks5Proxy(proxyName, 1080);
+        //const string proxyName = "ns377475.ip-91-121-109.eu"; static int port = 1080
+        //const string proxyName = "96.44.183.149.static.quadranet.com"; static int port = 55225
+        const string proxyName = "ns557216.ip-54-39-16.net"; static int port = 35545;
+        static HttpToSocks5Proxy proxy = new HttpToSocks5Proxy(proxyName, port);
         static TelegramBotClient Bot = new TelegramBotClient(apiKey, proxy);
         static AIMLbot.Bot AimlBot = new AIMLbot.Bot();
         static User AimlUser;
@@ -26,18 +30,36 @@ namespace tgBot
 
         static void Main(string[] args)
         {
-            proxy.ResolveHostnamesLocally = true;
-            var me = Bot.GetMeAsync().Result;//Получаем имя бота, чтобы обозвать окошко консоли(когда ботов несколько, то так проще)
-            Console.Title = me.Username;
-            AimlUser = new User(me.Id.ToString(), AimlBot);
-            clips = new Clips();
+            AimlUser = new User("001", AimlBot);
+            //clips = new Clips();
 
             AimlBot.loadSettings();
             AimlBot.isAcceptingUserInput = false;
             AimlBot.loadAIMLFromFiles();
             AimlBot.isAcceptingUserInput = true;
 
-            //*/
+            while (true)
+            {
+                Console.Write("Вы: ");
+                string messageText = Console.ReadLine();
+                var res = AimlBot.Chat(new Request(messageText, AimlUser, AimlBot));
+                //string answer = myBot.GetAIMLAnswer(messageText);
+                Console.Write("Бот: ");
+                Console.WriteLine(res.Output);
+            }
+            /*
+            proxy.ResolveHostnamesLocally = true;
+            var me = Bot.GetMeAsync().Result;//Получаем имя бота, чтобы обозвать окошко консоли(когда ботов несколько, то так проще)
+            Console.Title = me.Username;
+            AimlUser = new User(me.Id.ToString(), AimlBot);
+            //clips = new Clips();
+
+            AimlBot.loadSettings();
+            AimlBot.isAcceptingUserInput = false;
+            AimlBot.loadAIMLFromFiles();
+            AimlBot.isAcceptingUserInput = true;
+
+            //*
             //Создаем обработчики событий
             Bot.OnMessage += BotOnMessageReceived;
             Bot.OnCallbackQuery += BotOnCallbackQueryReceived;
@@ -47,8 +69,8 @@ namespace tgBot
             Bot.StartReceiving();// Array.Empty<UpdateType>());
             Console.WriteLine($"Start listening for @{me.Username}");
             Console.ReadLine();
-            Bot.StopReceiving();
-        }//*/
+            Bot.StopReceiving();//*/
+        }
 
         private static void BotOnReceiveError(object sender, ReceiveErrorEventArgs e)
         {
@@ -60,7 +82,7 @@ namespace tgBot
             throw new NotImplementedException();
         }
 
-        private static void BotOnMessageReceived(object sender, MessageEventArgs e)
+        private static async void BotOnMessageReceived(object sender, MessageEventArgs e)
         {
             var message = e.Message;
             if (message.Type == MessageType.Text)
@@ -71,8 +93,8 @@ namespace tgBot
                     Bot.SendTextMessageAsync(message.Chat.Id, str);//, replyMarkup: inlineKeyboard);
                     return;
                 }
-
-                Result res = AimlBot.Chat(message.Text, AimlUser.UserID);
+                var res = AimlBot.Chat(new Request(message.Text, AimlUser, AimlBot));
+                //Result res = AimlBot.Chat(message.Text, AimlUser.UserID);
                 int from = res.RawOutput.IndexOf("help");
                 if (from != -1)
                 {
@@ -104,20 +126,29 @@ namespace tgBot
             }
             else if (message.Type == MessageType.Photo)
             {
-                string str = "../../photos/001.jpg";
-                System.IO.Stream file = new System.IO.FileStream(str, System.IO.FileMode.OpenOrCreate);
-                Bot.GetInfoAndDownloadFileAsync(message.Photo[0].FileId, file);
-                file.Close();
+                var file = await Bot.GetFileAsync(message.Photo.Last().FileId);
+                string filename = "../../" + file.FilePath;
+                using (var saveImageStream = new System.IO.FileStream(filename, FileMode.Create))
+                {
+                    await Bot.DownloadFileAsync(file.FilePath, saveImageStream);
+                }
 
-                //Bitmap currentImage = Image.FromFile(str) as Bitmap;
-                //Bitmap image = ImageProcessing.PrepeareImage(currentImage, 56);
-               // Telegram.Bot.Types.InputFiles.InputOnlineFile f = new Telegram.Bot.Types.InputFiles.InputOnlineFile(str);
-                //Bot.SendPhotoAsync(message.Chat.Id, f);
+                Bitmap currentImage = Image.FromFile(filename) as Bitmap;
+                Bitmap image = ImageProcessing.PrepeareImage(currentImage, 56);
+                var file2 = new FileStream("../../photos/002.jpg", FileMode.Create);
+                image.Save(file2, System.Drawing.Imaging.ImageFormat.Jpeg);
+               // file2.Close();
+
+//                var s = System.IO.File.OpenRead("../../photos/001.jpg");
+                Bot.SendPhotoAsync(e.Message.Chat.Id, new Telegram.Bot.Types.InputFiles.InputOnlineFile(file2));
+                
+
+                //Bot.SendPhotoAsync(message.Chat.Id, new Telegram.Bot.Types.InputFiles.InputOnlineFile(file2));
                 Bot.SendTextMessageAsync(message.Chat.Id, "Прекрасный выбор!");
                 
             }
         }
-
+       
         static public void ClipsConnect(string message)
         {
             var temp = message.Split('!');
