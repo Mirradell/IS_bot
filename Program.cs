@@ -16,11 +16,10 @@ namespace tgBot
 {
     class Program
     {//*
-        const string apiKey = "";
-        const string chatId = "725729553";
-        //const string proxyName = "ns377475.ip-91-121-109.eu"; static int port = 1080
-        //const string proxyName = "96.44.183.149.static.quadranet.com"; static int port = 55225
-        const string proxyName = "ns557216.ip-54-39-16.net"; static int port = 35545;
+        const string apiKey = "enter secret api key";
+        const string chatId = "enter chat id";
+        const string proxyName = "enter proxy address";
+        static int port = 35545;
         static HttpToSocks5Proxy proxy = new HttpToSocks5Proxy(proxyName, port);
         static TelegramBotClient Bot = new TelegramBotClient(apiKey, proxy);
         static AIMLbot.Bot AimlBot = new AIMLbot.Bot();
